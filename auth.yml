@@ -7,9 +7,9 @@ registry-1.docker.io:
 registry.hub.docker.com:
   username: $TARGET_REGISTRY_USER
   password: $TARGET_REGISTRY_PASSWORD
-docker.io:
-  username: $TARGET_REGISTRY_USER
-  password: $TARGET_REGISTRY_PASSWORD
+# docker.io:
+#   username: $TARGET_REGISTRY_USER
+#   password: $TARGET_REGISTRY_PASSWORD
 registry.cn-hangzhou.aliyuncs.com:
   username: $TARGET_REGISTRY_USER
   password: $TARGET_REGISTRY_PASSWORD

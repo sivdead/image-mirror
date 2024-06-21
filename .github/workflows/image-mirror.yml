@@ -65,7 +65,7 @@ jobs:
           issue-number: ${{ github.event.issue.number }}
           body: |
             Syncing image to TargetRegistry, please wait a moment  
-            [Check the progress](https://github.com/imdingtalk/image-mirror/actions/runs/${{ github.run_id }})    
+            [Check the progress](https://github.com/sivdead/image-mirror/actions/runs/${{ github.run_id }})    
           reactions: rocket
 
       - name: prepare

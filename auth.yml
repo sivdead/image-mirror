@@ -16,9 +16,9 @@ registry.cn-hangzhou.aliyuncs.com:
 registry.cn-shenzhen.aliyuncs.com:
   username: $TARGET_REGISTRY_USER
   password: $TARGET_REGISTRY_PASSWORD
-$TARGET_REGISTRY:
+ccr.ccs.tencentyun.com:
   username: $TARGET_REGISTRY_USER
   password: $TARGET_REGISTRY_PASSWORD
-$TARGET_REGISTRY/$TARGET_NAMESPACE:
+$TARGET_REGISTRY:
   username: $TARGET_REGISTRY_USER
   password: $TARGET_REGISTRY_PASSWORD
